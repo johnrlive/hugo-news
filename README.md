@@ -1,4 +1,112 @@
-# Mainroad
+# Hugo News Theme
+
+## Installation
+
+## Install option 1: Clone Repo
+
+```
+git clone git@github.com:johnrlive/hugo-news.git themes/hugo-news
+```
+
+- OR
+
+## Install option 2: Add Theme as Submodule
+
+```
+git submodule add git@github.com:johnrlive/hugo-news.git themes/hugo-news
+git submodule init
+git submodule update
+```
+
+Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `mainroad`:
+
+```
+theme = "hugo-news"
+```
+
+For more information read the official [setup guide](https://gohugo.io/themes/installing-and-using-themes/) of Hugo.
+
+## Configuration
+
+### Config.toml example
+
+```toml
+baseurl = "/"
+title = "Hugo News Theme"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "hugo-news"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+    name = "John Doe"
+    bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    avatar = "img/avatar.png"
+
+[Params]
+    subtitle = "Just another site" # Subtitle of your site. Used in site header
+    description = " John Doe's Personal blog about everything" # Description of your site. Used in meta description
+    opengraph = true # Enable OpenGraph if true
+    twitter_cards = true # Enable Twitter Cards if true
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true # Show authorbox at bottom of pages if true
+    post_navigation = true # Show post navigation at bottom of pages if true
+    postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
+    #postSections = ["blog", "news"] # alternative that shows more than one section's pages
+    #dateformat = "2006-01-02" # change the format of dates
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent articles" widget
+    recent_articles_num = 5 # Set the number of articles in the "Recent articles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+    # Enable "Social" widget, if any of "social_*" set a value
+    social_facebook = "username"
+    social_twitter = "username"
+    social_linkedin = "username"
+    social_github = "username"
+    social_email = "example@example.com"
+    social_google_plus = "profileid"
+```
+
+### Front Matter example
+
+```yaml
+---
+title: "Example article title"
+date: "2017-08-21"
+description: "Example article description"
+thumbnail: "img/placeholder.jpg" # Optional, thumbnail
+disable_comments: false # Optional, disable Disqus comments if true
+categories:
+  - "Category 1"
+  - "Category 2"
+tags:
+  - "Test"
+  - "Another test"
+---
+```
+
+For more information about front matter variables read [Hugo Front Matter](https://gohugo.io/themes/installing-and-using-themes/) from Hugo official documentation.
+
+## Contributing
+
+Have you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](https://github.com/johnrlive/hugo-news/issues) to let me know. Or make directly a [pull request](https://github.com/johnrlive/hugo-news/pulls), but please respect the following [contributing guide](https://github.com/johnrlive/hugo-news/wiki/Contributing).
+
+
+
+
+
+
+
+
+
+# Fork From Mainroad
 
 **Mainroad** is a responsive, simple, clean and content-focused [Hugo](https://gohugo.io/) theme based on the [MH Magazine lite](https://wordpress.org/themes/mh-magazine-lite/) WordPress theme by [MH Themes](https://www.mhthemes.com/).
 

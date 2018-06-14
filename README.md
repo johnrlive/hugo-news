@@ -2,20 +2,20 @@
 
 ## Installation
 
-## Install option 1: Clone Repo
-
-```
-git clone git@github.com:johnrlive/hugo-news.git themes/hugo-news
-```
-
-- OR
-
-## Install option 2: Add Theme as Submodule
+### Install option 1: Add Theme as Submodule
 
 ```
 git submodule add git@github.com:johnrlive/hugo-news.git themes/hugo-news
 git submodule init
 git submodule update
+```
+
+- OR
+
+### Install option 2: Clone Repo
+
+```
+git clone git@github.com:johnrlive/hugo-news.git themes/hugo-news
 ```
 
 Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `mainroad`:
@@ -104,9 +104,9 @@ Have you found a bug or got an idea for a new feature? Feel free to use the [iss
 
 
 
+--------------------------------------------------------------------------------
 
-
-# Fork From Mainroad
+# Mainroad (ignore below)
 
 **Mainroad** is a responsive, simple, clean and content-focused [Hugo](https://gohugo.io/) theme based on the [MH Magazine lite](https://wordpress.org/themes/mh-magazine-lite/) WordPress theme by [MH Themes](https://www.mhthemes.com/).
 

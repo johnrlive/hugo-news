@@ -18,7 +18,7 @@ git submodule update
 git clone git@github.com:johnrlive/hugo-news.git themes/hugo-news
 ```
 
-Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `mainroad`:
+Next, open `config.toml` in the base of the Hugo site and ensure the theme option is set to `hugo-news`:
 
 ```
 theme = "hugo-news"

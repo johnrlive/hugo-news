@@ -12,6 +12,7 @@ cd thenerdlife
 ### Install option 1: Add Theme as Submodule
 
 ```
+git init
 git submodule add git@github.com:johnrlive/hugo-news.git themes/hugo-news
 git submodule init
 git submodule update

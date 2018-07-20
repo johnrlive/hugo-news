@@ -2,6 +2,13 @@
 
 ## Installation
 
+### Create new Hugo site
+
+```
+hugo new site thenerdlife
+cd thenerdlife
+```
+
 ### Install option 1: Add Theme as Submodule
 
 ```

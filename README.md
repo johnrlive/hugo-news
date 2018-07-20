@@ -9,6 +9,15 @@ hugo new site thenerdlife
 cd thenerdlife
 ```
 
+### Copy example data
+
+copy the contents of theses files to root of "thenerdlife" folder ../../..
+
+```
+cd themes/hugo-news/exampleSite
+cp * -r ../../..
+```
+
 ### Install option 1: Add Theme as Submodule
 
 ```

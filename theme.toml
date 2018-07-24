@@ -1,18 +1,18 @@
-name = "Mainroad"
+name = "Hugo News"
 license = "GPLv2"
-licenselink = "https://github.com/vimux/mainroad/blob/master/LICENSE.md"
+licenselink = "https://github.com/johnrlive/hugo-news/blob/master/LICENSE.md"
 description = "Mainroad is a responsive, clean and content-focused Hugo theme."
-homepage = "https://github.com/vimux/mainroad/"
+homepage = "https://github.com/johnrlive/hugo-news/"
 tags = ["blog", "responsive", "widgets", "rss", "disqus", "google analytics", "wordpress"]
 features = ["blog", "responsive", "widgets", "rss", "disqus", "wordpress"]
 min_version = "0.36"
 
 [author]
-  name = "Vimux"
-  homepage = "https://github.com/vimux"
+  name = "TheNerdLife"
+  homepage = "https://github.com/johnrlive/hugo-news/"
 
 # If porting an existing theme
 [original]
-  name = "MH Magazine lite"
-  homepage = "https://wordpress.org/themes/mh-magazine-lite/"
-  repo = "https://themes.trac.wordpress.org/browser/mh-magazine-lite/2.5.6"
+  name = "Mainroad"
+  homepage = "https://hugothemes.gitlab.io/mainroad/"
+  repo = "https://github.com/Vimux/Mainroad/"

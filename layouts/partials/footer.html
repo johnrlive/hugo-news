@@ -1,7 +1,8 @@
 	</div><!-- .wrapper -->
 		<footer class="footer">
 			<div class="container container-inner">
-				<div class="footer__copyright">&copy; {{ now.Format "2006" }} {{ .Site.Title }}. <span class="footer__copyright-credits">{{ T "footer_credits" | safeHTML }}</span></div>
+				<div class="footer__copyright">&copy; {{ now.Format "2006" }} {{ .Site.Title }}.
+          <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/johnrlive/hugo-news/">Hugo-News</a> Theme</span></div>
 			</div>
 		</footer>
 	</div><!-- .container-outer -->
@@ -11,5 +12,6 @@
 		navClass: "menu--collapse",
 	});
 </script>
+  {{ partial "custom/scripts_body.html" . }}
 </body>
 </html>

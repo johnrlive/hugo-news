@@ -18,7 +18,8 @@
 	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 	<script type="text/javascript" src="{{ "js/scripts.js" | relURL }}"></script>
 	<link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
-	{{ template "_internal/google_analytics_async.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }}
+  {{ partial "custom/scripts_head.html" . }}
 </head>
 <body class="body {{ if (.Site.Params.leftsidebar) or (.Params.leftsidebar) }}body-left-sidebar{{ else }}body-right-sidebar{{ end }}">
 	<div class="container container-outer">
